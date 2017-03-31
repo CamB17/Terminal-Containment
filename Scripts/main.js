@@ -1,15 +1,16 @@
+//var currentPlayer1;
+//var currentPlayer2;
+//var winAlert; //function that declares winner
 
 $(document).ready(function () {
  
     
 });
-//add in player 1&2
-//var curentPlayer1;
-//var currentPlayer2;
+
 var play;
 
 
-//Virus divs
+//Bug divs
 function newDiv() {
     var $div = $("<div class='a'>");
     $(".animatedDivs").append($div);
@@ -107,13 +108,23 @@ $('.animatedDivs').on('click', 'div.a', removenewDiv);
 	}
 
 });
-	
-//Sound effect and loop of bugs on click
+// Win check function
+//checkWin = function () {
+	//if (pl1Score > pl2Score)
+		//alert("Player 1 wins") 
+	//} else{
+	//if (pl2Score > pl1Score)
+		//alert("Player 2 wins")
+	//}
+//};
+
+
+//Sound effect and loop of bugs
 	document.getElementById('play').play();
 	document.getElementById('play').loop = true;
 
 //Timer Countdown
-   var counter = 30;
+   var counter = 20;//Set 20secs on timer
    setInterval(function() {
      counter--;
       if (counter >= 0) {
@@ -121,7 +132,7 @@ $('.animatedDivs').on('click', 'div.a', removenewDiv);
          span.innerHTML = counter;
       }
       if (counter === 0) {
-         alert( 'Game Over', window.location.reload());
+         alert( 'Player one wins!', window.location.reload());
          clearInterval(counter);
        }
      }, 1000);

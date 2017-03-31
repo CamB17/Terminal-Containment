@@ -1,14 +1,17 @@
+/*Universal*/
 html * {
 	font-family: 'Space Mono', monospace;
 
 }
 
+/*Body Style*/
 body {
 	background-image: url("../Images/53506_technology_serv_server_room.jpg");
 	background-repeat: no-repeat;
 	background-color: black;
 }
 
+/*Bugs*/
 div.a {
 	content: url("../Images/bug_insect_ladybird_animal_virus_error_add-512.png");
 	width: 60px;
@@ -16,6 +19,7 @@ div.a {
     position:fixed;
    }
 
+/*Timer*/
 #count {
 	color: white;
 	position: fixed;
@@ -24,7 +28,7 @@ div.a {
 }
 
 
-
+/*Player Score*/
 #output {
 	color: white;
 	position: fixed;
@@ -32,6 +36,7 @@ div.a {
 	left: 505px;
 }
 
+/*Start Game*/
 button#btnStart {
 	position: fixed;
 	top: 728px;
@@ -43,6 +48,7 @@ button#btnStart {
 
 }
 
+/*Terminated*/
 p {
 	color: white;
 	top: 730px;

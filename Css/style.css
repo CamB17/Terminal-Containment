@@ -1,27 +1,30 @@
-
+/*UniversalStyle*/
 html * {
 	font-family: 'Space Mono', monospace;
 
 }
 
+/*Body Section*/
 body {
 	background: black;
 }
 
+/*Bug*/
 div.a {
 	content: url("../Images/bug_insect_ladybird_animal_virus_error_add-512.png");
 	width: 60px;
     height:60px;
     position:fixed;
-    
 }
 
+/*Game Title*/
 #title {
 	color: white;
 	font-size: 100px;
 	text-align: center;
 }
 
+/*Start Game Button*/
 a#start {
 	background: black;
 	color: red;
@@ -30,5 +33,4 @@ a#start {
 	display: inline-block;
 	margin-left: 500px;
 	margin-top: 70px;
-	
 }
