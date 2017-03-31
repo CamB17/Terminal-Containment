@@ -11,7 +11,7 @@ function newDiv() {
     $(".animatedDivs").append($div);
     animateDiv();
 
-
+//Creates animation function for bugs
     function animateDiv() {
         var newq = makeNewPosition();
         var oldq = $div.offset();
@@ -117,7 +117,7 @@ $('.animatedDivs').on('click', 'div.a', removenewDiv);
       if (counter >= 0) {
          span = document.getElementById("count");
          span.innerHTML = counter;
-      //} else {
+      
       
       //if (output >= 37) {
       	 //span = document.getElementById("output");
