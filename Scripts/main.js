@@ -1,6 +1,6 @@
 //var currentPlayer1;
 //var currentPlayer2;
-//var winAlert; //function that declares winner
+var checkWin; //function that declares winner
 
 $(document).ready(function () {
  
@@ -109,6 +109,14 @@ $('.animatedDivs').on('click', 'div.a', removenewDiv);
 
 });
 // Win check function
+//function checkWin () {
+	//if('#output' === 3);
+	//alert("Virus Terminated");
+//}
+//checkWin();
+//console.log("testwin");
+
+
 //checkWin = function () {
 	//if (pl1Score > pl2Score)
 		//alert("Player 1 wins") 
@@ -124,7 +132,7 @@ $('.animatedDivs').on('click', 'div.a', removenewDiv);
 	document.getElementById('play').loop = true;
 
 //Timer Countdown
-   var counter = 20;//Set 20secs on timer
+   var counter = 30;//Set 30secs on timer
    setInterval(function() {
      counter--;
       if (counter >= 0) {
@@ -132,13 +140,14 @@ $('.animatedDivs').on('click', 'div.a', removenewDiv);
          span.innerHTML = counter;
       }
       if (counter === 0) {
-         alert( 'Player one wins!', window.location.reload());
+         alert( 'System Fail!', window.location.reload());
          clearInterval(counter);
        }
      }, 1000);
   
- 
+
  });
+
 
 
 

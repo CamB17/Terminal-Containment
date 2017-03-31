@@ -4,6 +4,17 @@ html * {
 
 }
 
+/*Start Game Button*/
+a#start {
+	background: black;
+	color: red;
+	text-decoration: none;
+	border: 3px solid red;
+	display: inline-block;
+	margin-left: 500px;
+	margin-top: 70px;
+}
+
 /*Body Section*/
 body {
 	background: black;
@@ -22,15 +33,4 @@ div.a {
 	color: white;
 	font-size: 100px;
 	text-align: center;
-}
-
-/*Start Game Button*/
-a#start {
-	background: black;
-	color: red;
-	text-decoration: none;
-	border: 3px solid red;
-	display: inline-block;
-	margin-left: 500px;
-	margin-top: 70px;
 }

@@ -11,31 +11,6 @@ body {
 	background-color: black;
 }
 
-/*Bugs*/
-div.a {
-	content: url("../Images/bug_insect_ladybird_animal_virus_error_add-512.png");
-	width: 60px;
-    height:60px;
-    position:fixed;
-   }
-
-/*Timer*/
-#count {
-	color: white;
-	position: fixed;
-	top: 750px;
-	left: 905px;
-}
-
-
-/*Player Score*/
-#output {
-	color: white;
-	position: fixed;
-	top: 748px;
-	left: 505px;
-}
-
 /*Start Game*/
 button#btnStart {
 	position: fixed;
@@ -47,6 +22,31 @@ button#btnStart {
 	background-color: white;
 
 }
+
+/*Timer*/
+#count {
+	color: white;
+	position: fixed;
+	top: 750px;
+	left: 905px;
+}
+
+/*Bugs*/
+div.a {
+	content: url("../Images/bug_insect_ladybird_animal_virus_error_add-512.png");
+	width: 60px;
+    height:60px;
+    position:fixed;
+   }
+
+/*Player Score*/
+#output {
+	color: white;
+	position: fixed;
+	top: 748px;
+	left: 505px;
+}
+
 
 /*Terminated*/
 p {
