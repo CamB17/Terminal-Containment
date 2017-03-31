@@ -1,14 +1,9 @@
-//var currentPlayer1;
-//var currentPlayer2;
-var checkWin; //function that declares winner
-
 $(document).ready(function () {
  
     
 });
 
 var play;
-
 
 //Bug divs
 function newDiv() {
@@ -101,52 +96,47 @@ $('.animatedDivs').click(function() {
 	$('#output').html(function(i, val) { return val*1+1 });
 $('.animatedDivs').on('click', 'div.a', removenewDiv);
 	document.getElementById('smash').play();//Sound effect on clicked bugs
-	document.getElementById('smah').loop = true;
+	//document.getElementById('smah').loop = true;
 	function removenewDiv() {
 	$(this).remove();
 	
 	}
 
 });
-// Win check function
-//function checkWin () {
-	//if('#output' === 3);
-	//alert("Virus Terminated");
-//}
-//checkWin();
-//console.log("testwin");
-
-
-//checkWin = function () {
-	//if (pl1Score > pl2Score)
-		//alert("Player 1 wins") 
-	//} else{
-	//if (pl2Score > pl1Score)
-		//alert("Player 2 wins")
-	//}
-//};
-
 
 //Sound effect and loop of bugs
 	document.getElementById('play').play();
 	document.getElementById('play').loop = true;
 
 //Timer Countdown
-   var counter = 30;//Set 30secs on timer
+   var counter = 20;//Set 30secs on timer
    setInterval(function() {
+     console.log("testing");
      counter--;
+      
       if (counter >= 0) {
          span = document.getElementById("count");
          span.innerHTML = counter;
-      }
+      //} else {
+      
+      //if (output >= 37) {
+      	 //span = document.getElementById("output");
+      	 //span.innnerHTML = output;
+      	 //alert('All threats terminated!', window.loacation.reload());
+      //} else { 
+      
       if (counter === 0) {
          alert( 'System Fail!', window.location.reload());
          clearInterval(counter);
+       
        }
-     }, 1000);
-  
+     }
+   }
+ 
+     , 1000);
+ 
 
- });
+});
 
 
 
