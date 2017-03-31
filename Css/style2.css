@@ -1,0 +1,52 @@
+html * {
+	font-family: 'Space Mono', monospace;
+
+}
+
+body {
+	background-image: url("../Images/53506_technology_serv_server_room.jpg");
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+div.a {
+	content: url("../Images/bug_insect_ladybird_animal_virus_error_add-512.png");
+	width: 60px;
+    height:60px;
+    position:fixed;
+   }
+
+#count {
+	color: white;
+	position: fixed;
+	top: 750px;
+	left: 905px;
+}
+
+
+
+#output {
+	color: white;
+	position: fixed;
+	top: 748px;
+	left: 505px;
+}
+
+button#btnStart {
+	position: fixed;
+	top: 728px;
+	left: 725px;
+	height: 65px;
+	width:100px;
+	border-radius: 6px;
+	background-color: white;
+
+}
+
+p {
+	color: white;
+	top: 730px;
+	left:530px;
+	position: fixed;
+}
+
