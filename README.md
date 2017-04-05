@@ -4,7 +4,7 @@
 # [Terminal Containment](file:///Users/camcodes/wdi/project1/loadingpage.html)
 
 
-#[Wireframe](file:///Users/camcodes/wdi/project1/Images/IMG_20170327_113722.jpg)
+#[Wireframe](Images/IMG_20170327_113722.jpg)
 
 # A virus has broken past your security and quickly multiplied. You must termiante all trace of the virus before it infects the servers and crashes your system.
 
