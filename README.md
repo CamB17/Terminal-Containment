@@ -1,7 +1,7 @@
 #Terminal Conatainment Instructions
 
 # Tools used: Js, Jquery, Css
-# [Terminal Containment](file:///Users/camcodes/wdi/project1/loadingpage.html)
+# [Terminal Containment](loadingpage.html)
 
 
 # [Wireframe](Images/IMG_20170327_113722.jpg)
