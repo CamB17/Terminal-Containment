@@ -10,3 +10,5 @@
 
 #### Use your mouse pointer to quickly click upon the viruses.
 
+####[Terminal Containment](file:///Users/camcodes/wdi/project1/loadingpage.html)
+
