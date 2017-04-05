@@ -1,7 +1,7 @@
 #Terminal Conatainment Instructions
 
 # Tools used: Js, Jquery, Css
-# [](file:///Users/camcodes/wdi/project1/loadingpage.html)
+# [Terminal Containment](file:///Users/camcodes/wdi/project1/loadingpage.html)
 
 # A virus has broken past your security and quickly multiplied. You must termiante all trace of the virus before it infects the servers and crashes your system.
 
