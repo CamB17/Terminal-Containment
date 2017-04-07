@@ -1,7 +1,7 @@
 #Terminal Conatainment Instructions
 
 # Tools used: Js, Jquery, Css
-# [Terminal Containment](loadingpage.html)
+# [Terminal Containment](https://CamB17.github.io/Terminal-Containment/loadingpage.html)
 
 
 # [Wireframe](Images/IMG_20170327_113722.jpg)
